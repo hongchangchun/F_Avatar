@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3046196563510548727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6685431010550932007}
+  - component: {fileID: 5910943306780852553}
+  m_Layer: 0
+  m_Name: AvatarTemplete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6685431010550932007
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046196563510548727}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6741056, y: 1.4170676, z: -9.0873165}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5910943306780852553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3046196563510548727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263706fcf6a47624abf79f520c7b7df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parts_templete:
+  - templete_id: 1
+    part_name: "\u5934"
+    default_path: Prefab/
+    pattern: '*tou.prefab'
+    node_name: 
+    mode: 1
+    res_node: 
+    sub_templetes: 
+  - templete_id: 2
+    part_name: "\u811A"
+    default_path: Prefab/
+    pattern: '*jiao.prefab'
+    node_name: 
+    mode: 1
+    res_node: 
+    sub_templetes: 
+  - templete_id: 3
+    part_name: "\u53F3\u624B\u6B66\u5668"
+    default_path: Prefab/
+    pattern: '*we_one_hou_*.prefab'
+    node_name: weapon_hand_r
+    mode: 0
+    res_node: 
+    sub_templetes: 
+  - templete_id: 4
+    part_name: "\u80A9\u8180"
+    default_path: Prefab/
+    pattern: '*shen*.prefab'
+    node_name: 
+    mode: 1
+    res_node: 
+    sub_templetes: 
+  - templete_id: 5
+    part_name: "\u624B\u5957"
+    default_path: Prefab/
+    pattern: '*shou*.prefab'
+    node_name: 
+    mode: 1
+    res_node: 
+    sub_templetes: 
